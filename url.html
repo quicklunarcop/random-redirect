@@ -1,0 +1,14 @@
+// Array of URLs
+var urls = [
+  'https://example.com/url1',
+  'https://example.com/url2',
+  'https://example.com/url3',
+  'https://example.com/url4',
+  'https://example.com/url5'
+];
+
+// Generate a random index
+var randomIndex = Math.floor(Math.random() * urls.length);
+
+// Redirect the user to the randomly selected URL
+window.location.href = urls[randomIndex];
